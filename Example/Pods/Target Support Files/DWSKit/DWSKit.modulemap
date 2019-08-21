@@ -1,0 +1,6 @@
+framework module DWSKit {
+  umbrella header "DWSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
