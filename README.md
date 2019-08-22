@@ -22,7 +22,7 @@ pod 'DWSKit'
 
 ## Author
 
-DonsWayo, dawayoapps@gmail.com
+DonsWayo, djwayomix@gmail.com
 
 ## License
 
