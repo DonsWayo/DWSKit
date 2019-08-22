@@ -1,5 +1,7 @@
 PODS:
-  - DWSKit (0.1.0)
+  - Bluebird (5.0.0)
+  - DWSKit (0.1.0):
+    - Bluebird (~> 5.0.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -22,6 +24,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Bluebird
     - FBSnapshotTestCase
     - Nimble
     - Nimble-Snapshots
@@ -32,7 +35,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DWSKit: ccb1759867c7f04e6e23e653ebc04496fdc7d155
+  Bluebird: 055c450b60de32dbe110768e8f419b3bcf2bbd24
+  DWSKit: c90d3ba6ee6c4d45c1c16ac73e697f0a4f9a0b2f
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52

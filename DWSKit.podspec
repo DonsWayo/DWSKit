@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/DonsWayo/DWSKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'DWSKit/Classes/**/*'
+  
+  s.dependency 'Bluebird', '~> 5.0.0'
   
   # s.resource_bundles = {
   #   'DWSKit' => ['DWSKit/Assets/*.png']
